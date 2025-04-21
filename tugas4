@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Creative Design Agency</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #000;
+    }
+
+    header {
+      padding: 40px;
+    }
+
+    .logo {
+      color: #f4a261;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .main-title {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 20px 0 10px;
+    }
+
+    .main-title .highlight {
+      color: #3b38f5;
+    }
+
+    .sub-title {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 0 40px 40px;
+    }
+
+    .feature {
+      width: 45%;
+    }
+
+    .feature img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .feature h3 {
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      text-align: right;
+      padding: 20px 40px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    a {
+      color: #3b38f5;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">dev.com</div>
+    <div class="main-title">We are a <span class="highlight">Creative</span></div>
+    <div class="sub-title">Design Agency</div>
+  </header>
+
+  <section class="features">
+    <div class="feature">
+      <img src="https://via.placeholder.com/400x200/005f73/fff?text=Beauty" alt="Beauty">
+      <h3>Beauty</h3>
+      <p>We strive to create the most beautiful websites for all your needs. Working closely with you to design and develop an amazing website for your business.</p>
+    </div>
+    <div class="feature">
+      <img src="https://via.placeholder.com/400x200/000000/fff?text=Construction" alt="Construction">
+      <h3>Construction</h3>
+      <p>Built by our team of professional developers, we ensure the most rigorous and modern websites. Built from scratch using HTML and CSS. Only the best for you.</p>
+    </div>
+  </section>
+
+  <div class="footer">
+    <a href="#">Create. Develop. Design.</a>
+  </div>
+
+</body>
+</html>
